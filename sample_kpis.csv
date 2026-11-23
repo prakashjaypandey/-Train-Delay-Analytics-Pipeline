@@ -1,0 +1,8 @@
+metric,value
+Raw records,80
+Active records,66
+Active after midpoint filter,66
+Delayed over 15 min,19
+Average delay (min),31.8
+Average progress (%),72.2
+Average speed (km/h),68.9

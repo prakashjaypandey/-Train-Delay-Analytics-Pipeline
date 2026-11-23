@@ -1,0 +1,18 @@
+{
+  "sample_data_notice": "All data in this package is simulated for demonstration and is NOT real Indian Railways live status data.",
+  "run_date": "2026-11-22",
+  "raw_records": 80,
+  "active_records": 66,
+  "active_after_midpoint_filter": 66,
+  "delayed_over_15_min": 19,
+  "avg_delay_minutes": 31.8,
+  "avg_progress_percent": 72.2,
+  "avg_speed_kmph": 68.9,
+  "delay_category_counts": {
+    "On time/Minor": 47,
+    "Moderate": 5,
+    "Major": 14
+  },
+  "midpoint_threshold_percent": 50,
+  "filter_logic": "is_live = true AND progress_percent >= 50"
+}

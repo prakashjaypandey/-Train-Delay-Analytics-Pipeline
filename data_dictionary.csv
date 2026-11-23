@@ -1,0 +1,13 @@
+field,type,description,classification
+train_number,String,Train identifier in sample dataset,Key
+train_name,String,Synthetic sample label,Descriptive
+status,String,"Sample status: Running, Delayed, On Time, Not Started, Completed",Source
+is_live,Boolean,True for active statuses used in filter,Derived/source flag
+progress_percent,Float,Estimated route progress percentage,Filter field
+delay_minutes,Integer,Delay value in minutes in simulated sample,Metric
+route_distance_km,Integer,Total route length in km,Metric
+distance_covered_km,Float,Derived distance from route length x progress,Derived
+current_speed_kmph,Float,Sample current speed in km/h,Metric
+last_updated_utc,ISO datetime,Synthetic status timestamp,Metadata
+delay_category,String,Processed categorization of delay,Derived
+midpoint_passed,Boolean,Passes 50% progress rule,Derived
